@@ -1,0 +1,22 @@
+*{
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins",sans-serif;
+}
+.navbar{
+	background-color: #0c294d;
+}
+.aboutme{
+	background-color: #b6cae3;
+}
+.image-logo{
+	height: 200px;
+	width: 200px;
+}
+.map{
+	height: 60vh;
+	width: 100%;
+}
+.img-contact{
+	width: 300px;
+}
