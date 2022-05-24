@@ -1,16 +1,53 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Noto+Sans+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Noto+Sans+SC:wght@500&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100&family=Macondo&family=Noto+Sans+SC:wght@500&family=Permanent+Marker&display=swap');
+
+*{	
+	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Poppins",sans-serif;
+	width: 100%;
+}
+
+h1{
+font-family: 'Permanent Marker', cursive;
+}
+h2{
+	font-family: 'IBM Plex Serif', serif;
+}
+p{
+font-family: 'Noto Sans SC', sans-serif;
+}
+.nav-shuzin{
+	font-size: 32px;
+	font-family: 'Macondo', cursive;
+font-family: 'Noto Sans SC', sans-serif;
+font-family: 'Permanent Marker', cursive;
+
 }
 .navbar{
 	background-color: #0c294d;
+	font-family: 'Macondo', cursive;
+	font-size: 20px;
+
+}
+.navbar-nav{
+	text-align: center;
+
 }
 .aboutme{
 	background-color: #b6cae3;
+
+
+}
+.tools{
+	background-color: #b6cae3;
+	margin-left: ;
 }
 .image-logo{
-	height: 200px;
+	height: 300px;
 	width: 200px;
 }
 .map{
@@ -19,4 +56,11 @@
 }
 .img-contact{
 	width: 300px;
+}
+.card{
+	width: 18rem;
+}
+.form{
+	height: 50vh;
+	
 }
